@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: "*"
+  inspection: Instantiates:Zombie
+- binding: "*"
+  inspection: DeclaresVariable:bouba
+- binding: "*"
+  inspection: DeclaresVariable:kiki

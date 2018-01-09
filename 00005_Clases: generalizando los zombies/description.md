@@ -1,7 +1,7 @@
 Si tenemos más de un objeto que se comporta **exactamente** de la misma forma, lo que podemos hacer es generalizar ese comportamiento declarando una **clase**. Por ejemplo, si tenemos dos celulares :iphone: :
 
 ```ruby
-module CelularDeMaria
+module CelularDeMaría
   @saldo
   
   def self.realizar_llamada
