@@ -1,1 +1,0 @@
-¿Qué necesita saber `Juliana` al momento de `atacar`? ¡A quién y con cuántos puntos de daño!

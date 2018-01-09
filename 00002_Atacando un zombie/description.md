@@ -1,3 +1,0 @@
-Ahora es el momento de introducir a nuestra heroína, `Juliana` :raising_hand: . Por el momento su comportamiento es simple: puede `atacar` a un zombie con una cierta cantidad de puntos de daño. Además, tenemos que enseñarle a nuestro único zombie, `Bouba`, a `recibir_daño`: su `salud` disminuye el doble de puntos de daño que recibe, pero no puede ser menor a cero. :mask:
-
-> Veamos si se entiende: Creá el objeto `Juliana` que sepa `atacar` a un zombie y agregale el método `recibir_daño` a `Bouba`.
