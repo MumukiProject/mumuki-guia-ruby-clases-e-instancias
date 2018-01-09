@@ -1,0 +1,1 @@
+¡Recordá que el mensaje `atacar` recibe dos parámetros: un zombie y una cantidad de puntos de daño!
