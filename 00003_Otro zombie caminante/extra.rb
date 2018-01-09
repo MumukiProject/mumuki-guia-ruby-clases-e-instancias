@@ -1,1 +1,1 @@
-# enc
+# encoding: utf-8
