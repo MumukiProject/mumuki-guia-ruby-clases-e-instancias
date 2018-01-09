@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: Bouba
+  inspection: DeclaresAttribute:salud
