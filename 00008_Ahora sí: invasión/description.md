@@ -1,6 +1,6 @@
 Prometimos una invasión zombie pero sólo tenemos dos :-1: . Ahora que contamos con un molde para crearlos fácilmente, la clase `Zombie`, podemos hacer zombies _de a montones_.
 
-¿Eso significa que tenés que pensar un nombre para referenciar a cada uno? ¡No! Si, por ejemplo, agregamos algunas plantas a un `Vivero`... :hibiscus: :herb: :sunflower:
+¿Eso significa que tenés que pensar un nombre para referenciar a cada uno? ¡No! Si, por ejemplo, agregamos algunas plantas a un `Vivero`... :hibiscus: :rose: :sunflower:
 
 ```ruby
 Vivero.agregar_planta(Planta.new)
