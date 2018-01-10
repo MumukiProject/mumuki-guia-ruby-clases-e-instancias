@@ -19,4 +19,5 @@ end
 
 ...a pesar de que no tengamos una _referencia_ explícita para cada planta. ¡Puede ocurrir que no necesitemos darle un nombre a cada una!
 
-> Declará una variable `caminantes`, que sea una colección y agregale veinte nuevos zombies. ¡No olvides la existencia del mensaje `times`!
+> Veamos si se entiende: Declará una variable `caminantes`, que sea una colección y agregale veinte nuevos zombies. ¡No olvides la existencia del mensaje `times`!
+> Luego, agregale un método `ataque_masivo` a `Juliana`, que reciba una colección de zombies y los ataque a todos con 15 puntos de daño.
