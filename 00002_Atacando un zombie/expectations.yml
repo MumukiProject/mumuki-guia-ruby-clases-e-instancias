@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: atacar!
-  inspection: Calls:recibir_danio
+  inspection: Calls:recibir_danio!
