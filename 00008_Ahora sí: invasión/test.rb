@@ -9,6 +9,6 @@ end
 it "Cuando Juliana ataca masivamente les reduce la vida a todos los zombies en 30 puntos" do
   zombies = []
   5.times { zombies.push(Zombie.new) }
-  Juliana.ataque_masivo(zombies)
+  Juliana.ataque_masivo!(zombies)
   expect(zombies.all? { |zombie| zombie.salud == 70 } ). to be true
 end

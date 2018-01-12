@@ -3,4 +3,6 @@ expectations:
 - binding: "*"
   inspection: Uses:times
 - binding: Juliana
-  inspection: DeclaresMethod:ataque_masivo
+  inspection: DeclaresMethod:ataque_masivo!
+- binding: ataque_masivo!
+  inspection: Calls:atacar!
