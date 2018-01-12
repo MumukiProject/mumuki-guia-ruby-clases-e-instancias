@@ -1,8 +1,8 @@
-`Juliana` estuvo estudiando a los zombies y descubrió que no todos gozan de máxima vitalidad: algunos de ellos tienen menos salud que lo que pensábamos. :mask:
+`juliana` y `anastasia` estuvieron estudiando a los zombies y descubrieron que no todos gozan de máxima vitalidad: algunos de ellos tienen menos salud que lo que pensábamos. :mask:
 
 ¡Esto es un gran inconveniente! En nuestra clase `Zombie`, todos se inicializan con `@salud = 100`. ¿Cómo podemos hacer si necesitamos que alguno de ellos inicie con 90 de `@salud`? ¿Y si hay otro con 80? ¿Y si hay otro con 70? No vamos a escribir una clase nueva para cada caso, ¡estaríamos repitiendo toda la lógica de su comportamiento! :weary: 
 
-Afortunadamente podemos enviar el mensaje `initialize`, que nos permite especificar **cómo queremos que se inicialice** el objeto de una clase al pasarle parámetros en su creación. ¡Suena ideal para nuestro problema!
+Afortunadamente el viejo y querido `initialize` puede **recibir parámetros** que especifiquen **con qué valores** queremos inicializar los atributos al crear nuestros objetos. ¡Suena ideal para nuestro problema!
 
 ```ruby
 class Planta
