@@ -2,7 +2,7 @@
 expectations:
 - binding: "*"
   inspection: Uses:times
-- binding: Juliana
+- binding: Heroina
   inspection: DeclaresMethod:ataque_masivo!
 - binding: ataque_masivo!
   inspection: Calls:atacar!
