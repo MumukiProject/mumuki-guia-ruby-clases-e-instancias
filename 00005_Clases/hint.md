@@ -1,1 +1,1 @@
-:warning: ¡Atención! No todo es tan simple: notá que, a diferencia de en los objetos, los métodos en las clases **no se preceden** con la palabra `self`. ¿Y qué significa `initialize`? ¡Esperanos al próximo ejercicio!
+:warning: ¡Atención! No todo es tan simple: notá que, a diferencia de en los objetos, los métodos en las clases **no se preceden** con la palabra `self`. ¿Y qué significa `initialize`? ¡Paciencia! :pray: 

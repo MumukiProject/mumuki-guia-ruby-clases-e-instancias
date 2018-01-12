@@ -25,25 +25,25 @@ it "kiki tiene 100 de salud inicialmente y está con vida" do
 end
 
 it "Si bouba recibe 5 puntos de daño disminuye su salud en 10 puntos y está con vida" do
-  bouba.recibir_daño(5)
+  bouba.recibir_danio(5)
   expect(bouba.salud).to eq 90
   expect(bouba.sin_vida?).to eq false
 end
 
 it "Si kiki recibe 5 puntos de daño disminuye su salud en 10 puntos y está con vida" do
-  kiki.recibir_daño(5)
+  kiki.recibir_danio(5)
   expect(kiki.salud).to eq 90
   expect(kiki.sin_vida?).to eq false
 end
 
 it "Si bouba recibe mucho daño su salud es 0 y no está con vida" do
-  bouba.recibir_daño(69)
+  bouba.recibir_danio(69)
   expect(bouba.salud).to eq 0
   expect(bouba.sin_vida?).to eq true
 end
 
 it "Si kiki recibe mucho daño su salud es 0 y no está con vida" do
-  kiki.recibir_daño(69)
+  kiki.recibir_danio(69)
   expect(kiki.salud).to eq 0
   expect(kiki.sin_vida?).to eq true
 end
