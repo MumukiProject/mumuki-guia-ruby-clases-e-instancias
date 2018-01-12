@@ -1,13 +1,13 @@
-#encoding: utf-8
-
 module Juliana
-  def self.atacar(zombi, puntos)
-    zombi.recibir_daño(puntos)
+  def self.atacar!(zombi, puntos)
+    zombi.recibir_danio!(puntos)
   end
 end
 
 class Zombie
-  @salud
+  def initialize
+    @salud = 100
+  end
   
   def salud
     @salud
@@ -21,7 +21,7 @@ class Zombie
     @salud == 0
   end
   
-  def recibir_daño(puntos)
+  def recibir_danio!(puntos)
     @salud -= puntos * 2
   end
 
