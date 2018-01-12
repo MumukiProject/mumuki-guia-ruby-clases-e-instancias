@@ -1,3 +1,7 @@
+it "La energía inicial de Juliana es 1000" do
+  expect(Juliana.energia).to eq 1000
+end
+
 it "Si Juliana ataca con 5 puntos de daño a Bouba su salud disminuye en 10 puntos" do
   Juliana.atacar!(Bouba, 5)
   expect(Bouba.salud).to eq 90
