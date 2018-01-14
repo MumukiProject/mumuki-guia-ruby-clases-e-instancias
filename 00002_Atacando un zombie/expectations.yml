@@ -2,7 +2,5 @@
 expectations:
 - binding: atacar!
   inspection: Calls:recibir_danio!
-- binding: Juliana
-  inspection: Uses:@energia
 - binding: energia
   inspection: Uses:@energia
