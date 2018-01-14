@@ -4,3 +4,5 @@ expectations:
   inspection: Calls:recibir_danio!
 - binding: Juliana
   inspection: DeclaresAttribute:energia
+- binding: energia
+  inspection: Calls:@energia
