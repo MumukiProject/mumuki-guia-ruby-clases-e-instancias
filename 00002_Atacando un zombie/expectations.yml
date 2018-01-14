@@ -5,4 +5,4 @@ expectations:
 - binding: Juliana
   inspection: DeclaresAttribute:energia
 - binding: energia
-  inspection: Calls:@energia
+  inspection: Uses:@energia
