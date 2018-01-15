@@ -19,6 +19,6 @@ end
 
 ...a pesar de que no tengamos una _referencia_ explícita para cada planta. ¡Puede ocurrir que no necesitemos darle un nombre a cada una!
 
-> Veamos si se entiende: Declará una variable `caminantes`, que sea una colección y agregale veinte nuevos zombis. ¡No olvides que los números entienden el mensaje `times`!
+> Veamos si se entiende: Agregale veinte nuevos zombis a la colección `caminantes`. ¡No olvides que los números entienden el mensaje `times`!
 >
 > Luego, agregale un método `ataque_masivo!` a `Sobreviviente`, que reciba una colección de zombis y los ataque a todos con 15 puntos de daño. Podés ver la clase `Sobreviviente` en la solapa Biblioteca.
