@@ -5,6 +5,6 @@ expectations:
 - binding: Sobreviviente
   inspection: DeclaresMethod:ataque_masivo!
 - binding: ataque_masivo
-  inspection: Calls:atacar!
+  inspection: Calls:each
 - binding: atacar!
   inspection: Calls:recibir_danio!
