@@ -1,24 +1,26 @@
+zombi = Zombi.new
+
 it "Un Zombi no sabe correr" do
-  expect(Zombi.sabe_correr?).to be false
+  expect(zombi.sabe_correr?).to be false
 end
 
 it "Un Zombi grita ¡agrrrg!" do
-  expect(Zombi.gritar).to eq "¡agrrrg!"
+  expect(zombi.gritar).to eq "¡agrrrg!"
 end
 
 it "Un Zombi tiene 100 de salud inicialmente y está con vida" do
-  expect(Zombi.salud).to eq 100
-  expect(Zombi.sin_vida?).to eq false
+  expect(zombi.salud).to eq 100
+  expect(zombi.sin_vida?).to eq false
 end
 
 it "Si un Zombi recibe 5 puntos de daño disminuye su salud en 10 puntos y está con vida" do
-  Zombi.recibir_danio!(5)
-  expect(Zombi.salud).to eq 90
-  expect(Zombi.sin_vida?).to eq false
+  zombi.recibir_danio!(5)
+  expect(zombi.salud).to eq 90
+  expect(zombi.sin_vida?).to eq false
 end
 
 it "Si un Zombi recibe mucho daño su salud es 0 y no está con vida" do
-  Zombi.recibir_danio!(69)
-  expect(Zombi.salud).to eq 0
-  expect(Zombi.sin_vida?).to eq true
+  zombi.recibir_danio!(69)
+  expect(zombi.salud).to eq 0
+  expect(zombi.sin_vida?).to eq true
 end
