@@ -1,7 +1,7 @@
 ---
 expectations:
 - binding: "*"
-  inspection: Instantiates:Zombie
+  inspection: Instantiates:Zombi
 - binding: "*"
   inspection: DeclaresVariable:bouba
 - binding: "*"
