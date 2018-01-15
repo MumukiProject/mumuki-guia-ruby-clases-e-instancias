@@ -6,3 +6,5 @@ expectations:
   inspection: DeclaresMethod:ataque_masivo!
 - binding: ataque_masivo
   inspection: Calls:atacar!
+- binding: atacar!
+  inspection: Uses:recibir_danio!
