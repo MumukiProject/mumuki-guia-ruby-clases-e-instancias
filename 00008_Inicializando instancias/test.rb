@@ -25,8 +25,8 @@ class Zombi
 end
 
 bouba = Zombi.new
-
-#Zombi y bouba van aquí para no ensuciar la Biblioteca, que muestra el código de Juliana.
+kiki = Zombi.new
+#Zombi, bouba y kiki van aquí para no ensuciar la Biblioteca, que muestra el código de Juliana.
 
 it "juliana es Sobreviviente" do
   expect(juliana.instance_of? Sobreviviente). to be true
@@ -51,7 +51,7 @@ end
 
 it "Si anastasia ataca con 5 puntos de daño a un zombi su salud disminuye en 10 puntos" do
   anastasia.atacar!(bouba, 5)
-  expect(bouba.salud).to eq 90
+  expect(kiki.salud).to eq 90
 end
 
 it "Si juliana ataca con 10 puntos de daño a un zombi su salud disminuye en 20 puntos" do
@@ -61,7 +61,7 @@ end
 
 it "Si anastasia ataca con 10 puntos de daño a un zombi su salud disminuye en 20 puntos" do
   anastasia.atacar!(bouba, 10)
-  expect(bouba.salud).to eq 70
+  expect(kiki.salud).to eq 70
 end
 
 it "Si juliana ataca a un zombi con mucho daño su salud no puede ser menor a 0" do
@@ -71,5 +71,5 @@ end
 
 it "Si anastasia ataca a un zombi con mucho daño su salud no puede ser menor a 0" do
   anastasia.atacar!(bouba, 69)
-  expect(bouba.salud).to eq 0
+  expect(kiki.salud).to eq 0
 end
