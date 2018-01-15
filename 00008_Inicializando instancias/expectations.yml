@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: atacar!
+  inspection: Uses:recibir_danio!
