@@ -4,7 +4,7 @@ module Juliana
   end
 end
 
-class Zombie
+class Zombi
   def initialize
     @salud = 100
   end
@@ -22,7 +22,7 @@ class Zombie
   end
   
   def recibir_danio!(puntos)
-    @salud -= puntos * 2
+    @salud = [@salud - puntos * 2, 0].max
   end
 
   def gritar
@@ -30,5 +30,5 @@ class Zombie
   end
 end
 
-bouba = Zombie.new
-kiki = Zombie.new
+bouba = Zombi.new
+kiki = Zombi.new
