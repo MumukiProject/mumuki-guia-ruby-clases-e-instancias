@@ -58,12 +58,12 @@ it "Cuando juliana ataca masivamente les reduce la vida a todos los zombis en 30
   zombis = []
   5.times { zombis.push(Zombi.new) }
   juliana.ataque_masivo!(zombis)
-  expect(zombi.all? { |zombi| zombi.salud == 70 } ). to be true
+  expect(zombis.all? { |zombi| zombi.salud == 70 } ). to be true
 end
 
 it "Cuando anastasia ataca masivamente les reduce la vida a todos los zombis en 30 puntos" do
   zombis = []
   5.times { zombis.push(Zombi.new) }
   anastasia.ataque_masivo!(zombis)
-  expect(zombi.all? { |zombi| zombi.salud == 70 } ). to be true
+  expect(zombis.all? { |zombi| zombi.salud == 70 } ). to be true
 end
