@@ -1,4 +1,4 @@
-class Heroina
+class Sobreviviente
   #Completá aquí...
 end
 
