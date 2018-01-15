@@ -50,7 +50,7 @@ it "Si juliana ataca con 5 puntos de daño a un zombi su salud disminuye en 10 p
 end
 
 it "Si anastasia ataca con 5 puntos de daño a un zombi su salud disminuye en 10 puntos" do
-  anastasia.atacar!(bouba, 5)
+  anastasia.atacar!(kiki, 5)
   expect(kiki.salud).to eq 90
 end
 
@@ -60,7 +60,7 @@ it "Si juliana ataca con 10 puntos de daño a un zombi su salud disminuye en 20 
 end
 
 it "Si anastasia ataca con 10 puntos de daño a un zombi su salud disminuye en 20 puntos" do
-  anastasia.atacar!(bouba, 10)
+  anastasia.atacar!(kiki, 10)
   expect(kiki.salud).to eq 70
 end
 
@@ -70,6 +70,6 @@ it "Si juliana ataca a un zombi con mucho daño su salud no puede ser menor a 0"
 end
 
 it "Si anastasia ataca a un zombi con mucho daño su salud no puede ser menor a 0" do
-  anastasia.atacar!(bouba, 69)
+  anastasia.atacar!(kiki, 69)
   expect(kiki.salud).to eq 0
 end
