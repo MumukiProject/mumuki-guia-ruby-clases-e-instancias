@@ -1,0 +1,3 @@
+caminantes = []
+
+#Ahora agregale 20 zombis...
