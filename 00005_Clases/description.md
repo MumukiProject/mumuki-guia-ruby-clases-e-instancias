@@ -44,4 +44,4 @@ class Celular
 end
 ```
 
-> Veamos si se entiende: como `Bouba` y `Kiki` se comportan exactamente de la misma forma, **generalizalos** creando una clase `Zombie` que entienda los mismos cinco mensajes que ellos. Podés ver el código de ambos zombies en la solapa Biblioteca. 
+> Veamos si se entiende: como `Bouba` y `Kiki` se comportan exactamente de la misma forma, **generalizalos** creando una clase `Zombi` que entienda los mismos cinco mensajes que ellos. Podés ver el código de ambos zombis en la solapa Biblioteca. 
