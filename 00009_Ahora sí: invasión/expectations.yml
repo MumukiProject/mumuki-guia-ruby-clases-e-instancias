@@ -4,7 +4,7 @@ expectations:
   inspection: Uses:times
 - binding: Sobreviviente
   inspection: DeclaresMethod:ataque_masivo!
-- binding: ataque_masivo
-  inspection: Calls:each
+- binding: ataque_masivo!
+  inspection: Calls:atacar!
 - binding: atacar!
   inspection: Calls:recibir_danio!
