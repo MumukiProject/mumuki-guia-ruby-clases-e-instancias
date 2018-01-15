@@ -1,9 +1,11 @@
+zombi = Zombi.new
+
 it "Un Zombi no sabe correr" do
   expect(Zombi.sabe_correr?).to be false
 end
 
 it "Un Zombi grita ¡agrrrg!" do
-  expect(Zombi.gritar).to eq "¡agrrrg!"
+  expect(zombi.gritar).to eq "¡agrrrg!"
 end
 
 it "Un Zombi tiene 100 de salud inicialmente y está con vida" do
