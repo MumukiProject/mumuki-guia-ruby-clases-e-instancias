@@ -7,4 +7,4 @@ expectations:
 - binding: ataque_masivo
   inspection: Calls:atacar!
 - binding: atacar!
-  inspection: Uses:recibir_danio!
+  inspection: Calls:recibir_danio!
