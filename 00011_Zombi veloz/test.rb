@@ -1,7 +1,7 @@
 zombi = ZombiVeloz.new(100)
 
 it "Si creo un nuevo ZombiVeloz le puedo especificar su salud inicial" do
-  zombi42 = Zombi.new(42)
+  zombi42 = ZombiVeloz.new(42)
   expect(zombi42.salud). to be 42
 end
 
