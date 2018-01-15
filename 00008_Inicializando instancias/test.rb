@@ -26,6 +26,14 @@ end
 
 bouba = Zombi.new
 
+it "juliana es Sobreviviente" do
+  expect(juliana.instance_of? Sobreviviente). to be true
+end
+
+it "anastasia es Sobreviviente" do
+  expect(anastasia.instance_of? Sobreviviente). to be true
+end
+
 it "La energía inicial de juliana es 1000" do
   expect(juliana.energia).to eq 1000
 end

@@ -3,19 +3,19 @@ it "caminantes tiene veinte elementos" do
 end
 
 it "Todos los caminantes son zombies" do
-  expect(caminantes.all? { |caminante| caminante.instance_of? Zombie } ). to be true
+  expect(caminantes.all? { |caminante| caminante.instance_of? Zombi } ). to be true
 end
 
-it "Cuando Juliana ataca masivamente les reduce la vida a todos los zombies en 30 puntos" do
-  zombies = []
-  5.times { zombies.push(Zombie.new) }
-  juliana.ataque_masivo!(zombies)
-  expect(zombies.all? { |zombie| zombie.salud == 70 } ). to be true
+it "Cuando juliana ataca masivamente les reduce la vida a todos los zombis en 30 puntos" do
+  zombis = []
+  5.times { zombis.push(Zombi.new) }
+  juliana.ataque_masivo!(zombis)
+  expect(zombie.all? { |zombi| zombi.salud == 70 } ). to be true
 end
 
-it "Cuando Anastasia ataca masivamente les reduce la vida a todos los zombies en 30 puntos" do
-  zombies = []
-  5.times { zombies.push(Zombie.new) }
-  anastasia.ataque_masivo!(zombies)
-  expect(zombies.all? { |zombie| zombie.salud == 70 } ). to be true
+it "Cuando anastasia ataca masivamente les reduce la vida a todos los zombis en 30 puntos" do
+  zombis = []
+  5.times { zombis.push(Zombi.new) }
+  anastasia.ataque_masivo!(zombis)
+  expect(zombi.all? { |zombi| zombi.salud == 70 } ). to be true
 end
