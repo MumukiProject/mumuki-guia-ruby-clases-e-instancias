@@ -1,4 +1,4 @@
-class Zombie
+class Zombi
   def initialize
     @salud = 100
   end
