@@ -1,3 +1,29 @@
+class Zombi
+  def initialize
+    @salud = 100
+  end
+  
+  def salud
+    @salud
+  end
+  
+  def sabe_correr?
+    false
+  end
+  
+  def sin_vida?
+    @salud == 0
+  end
+  
+  def recibir_danio!(puntos)
+    @salud = [@salud - puntos * 2, 0].max
+  end
+
+  def gritar
+    "agrrrg!"
+  end
+end
+
 it "caminantes tiene veinte elementos" do
   expect(caminantes.size). to eq 20
 end
