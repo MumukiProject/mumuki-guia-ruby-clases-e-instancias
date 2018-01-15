@@ -1,8 +1,8 @@
 ---
 expectations:
 - binding: "*"
-  inspection: DeclaresVariable:bouba
+  inspection: Assigns:bouba
 - binding: "*"
-  inspection: DeclaresVariable:kiki
+  inspection: Assigns:kiki
 - binding: "*"
   inspection: Uses:Zombi
