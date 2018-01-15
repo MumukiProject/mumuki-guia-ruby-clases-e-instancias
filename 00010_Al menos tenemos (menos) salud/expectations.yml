@@ -1,4 +1,0 @@
----
-expectations:
-- binding: Zombi
-  inspection: DeclaresMethod:initialize

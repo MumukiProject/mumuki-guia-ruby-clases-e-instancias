@@ -1,8 +1,8 @@
 zombi = Zombi.new(100)
 
-it "Si creo un Zombi con salud 50 su salud es 50" do
-  zombi50 = Zombi.new(50)
-  expect(zombi50.salud). to be 50
+it "Si creo un nuevo Zombi le puedo especificar su salud inicial" do
+  zombi42 = Zombi.new(42)
+  expect(zombi50.salud). to be 42
 end
 
 it "Un Zombi no sabe correr" do
