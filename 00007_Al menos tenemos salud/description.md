@@ -1,4 +1,4 @@
-Quizá hayas notado que nuestra clase `Zombi` tiene, al igual que tuvieron los objetos `Bouba` y `Kiki` en su momento, una atributo `@salud`. Seguramente tu `Zombi` se ve similar a este:
+Quizá hayas notado que nuestra clase `Zombi` tiene, al igual que tuvieron los objetos `Bouba` y `Kiki` en su momento, un atributo `@salud`. Seguramente tu `Zombi` se ve similar a este:
 
 ```ruby
 class Zombi

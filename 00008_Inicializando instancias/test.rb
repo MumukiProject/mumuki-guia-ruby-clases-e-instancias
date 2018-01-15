@@ -15,7 +15,7 @@ class Zombi
     @salud == 0
   end
   
-  def recibir_danio(puntos)
+  def recibir_danio!(puntos)
     @salud = [@salud - puntos * 2, 0].max
   end
 
