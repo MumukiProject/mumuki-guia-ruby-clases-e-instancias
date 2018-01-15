@@ -26,6 +26,8 @@ end
 
 bouba = Zombi.new
 
+#Zombi y bouba van aquí para no ensuciar la Biblioteca, que muestra el código de Juliana.
+
 it "juliana es Sobreviviente" do
   expect(juliana.instance_of? Sobreviviente). to be true
 end
