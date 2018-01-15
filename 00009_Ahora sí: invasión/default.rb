@@ -1,3 +1,0 @@
-caminantes = #...
-
-#...solution[8]...#
