@@ -26,9 +26,9 @@ end
 
 bouba = Zombi.new
 kiki = Zombi.new
-julian = Sobreviviente.new
-anastasio = Sobreviviente.new
-candelo = Sobreviviente.new
+julian = Aliado.new
+anastasio = Aliado.new
+candelo = Aliado.new
 #Zombi y los objetos van aquí para no ensuciar la Biblioteca, que muestra el código de Sobreviviente.
 
 it "La energía inicial de un aliado es 500" do
