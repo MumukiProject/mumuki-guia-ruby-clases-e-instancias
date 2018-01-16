@@ -49,6 +49,7 @@ end
 it "Si una sobreviviente bebe una bebida energética su energia aumenta un 25%" do
   candela.beber!
   expect(candela.energia).to eq 1000 * 1.25
+end
 
 it "Si una sobreviviente ataca con 5 puntos de daño a un zombi su salud disminuye en 10 puntos" do
   juliana.atacar!(bouba, 5)
@@ -61,4 +62,3 @@ it "Cuando una sobreviviente ataca masivamente les reduce la vida a todos los zo
   juliana.ataque_masivo!(zombis)
   expect(zombis.all? { |zombi| zombi.salud == 70 } ). to be true
 end
-
