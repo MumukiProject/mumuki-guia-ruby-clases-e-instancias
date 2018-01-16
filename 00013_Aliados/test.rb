@@ -32,7 +32,7 @@ candelo = Aliado.new
 #Zombi y los objetos van aquí para no ensuciar la Biblioteca, que muestra el código de Sobreviviente.
 
 it "La energía inicial de un aliado es 500" do
-  expect(juliana.energia).to eq 500
+  expect(julian.energia).to eq 500
 end
 
 it "Si un aliado ataca su energía se reduce un 5%" do
