@@ -1,3 +1,36 @@
+class Zombi
+  def initialize
+    @salud = 100
+  end
+  
+  def salud
+    @salud
+  end
+  
+  def sabe_correr?
+    false
+  end
+  
+  def sin_vida?
+    @salud == 0
+  end
+  
+  def recibir_danio!(puntos)
+    @salud = [@salud - puntos * 2, 0].max
+  end
+
+  def gritar
+    "agrrrg!"
+  end
+end
+
+bouba = Zombi.new
+kiki = Zombi.new
+juliana = Sobreviviente.new
+anastasia = Sobreviviente.new
+candela = Sobreviviente.new
+#Zombi y los objetos van aquí para no ensuciar la Biblioteca, que muestra el código de Sobreviviente.
+
 it "La energía inicial de una sobreviviente es 1000" do
   expect(juliana.energia).to eq 1000
 end
