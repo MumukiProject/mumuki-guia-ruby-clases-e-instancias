@@ -46,7 +46,7 @@ it "Si una sobreviviente ataca masivamente su energía se reduce a la mitad" do
   expect(anastasia.energia).to eq 1000 / 2
 end
 
-it "Si una sobreviviente bebe una bebida energética su energia aumenta un 25%" do
+it "Si una sobreviviente bebe una bebida energética su energía aumenta un 25%" do
   candela.beber!
   expect(candela.energia).to eq 1000 * 1.25
 end
