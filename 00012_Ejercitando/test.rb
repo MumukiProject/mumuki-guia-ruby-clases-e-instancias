@@ -42,7 +42,7 @@ end
 
 it "Si una sobreviviente bebe una bebida energética su energía aumenta un 25%" do
   juliana.beber!
-  expect(candela.energia).to eq 1000 * 1.25
+  expect(juliana.energia).to eq 1000 * 1.25
 end
 
 it "Si una sobreviviente ataca con 5 puntos de daño a un zombi su salud disminuye en 10 puntos" do
