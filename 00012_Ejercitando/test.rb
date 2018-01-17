@@ -40,7 +40,7 @@ it "Si una sobreviviente ataca masivamente su energía se reduce a la mitad" do
   expect(anastasia.energia).to eq 1000 / 2
 end
 
-it "Si uan sobreviviente ataca normalmente su energía no se reduce" do
+it "Si una sobreviviente ataca normalmente su energía no se reduce" do
   juliana.atacar!(kiki, 5)
   expect(juliana.energia).to eq 1000
 end
