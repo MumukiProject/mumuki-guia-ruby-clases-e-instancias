@@ -46,9 +46,9 @@ it "Si un aliado ataca masivamente su energía se reduce a la mitad" do
   expect(anastasio.energia).to eq 500 / 2
 end
 
-it "Si un aliado bebe una bebida energética su energía aumenta un 25%" do
+it "Si un aliado bebe una bebida energética su energía aumenta un 10%" do
   candelo.beber!
-  expect(candelo.energia).to eq 500 * 1.25
+  expect(candelo.energia).to eq 500 * 1.10
 end
 
 it "Si un aliado ataca con 5 puntos de daño a un zombi su salud disminuye en 10 puntos" do
