@@ -28,16 +28,10 @@ bouba = Zombi.new
 kiki = Zombi.new
 juliana = Sobreviviente.new
 anastasia = Sobreviviente.new
-candela = Sobreviviente.new
 #Zombi y los objetos van aquí para no ensuciar la Biblioteca, que muestra el código de Sobreviviente.
 
 it "La energía inicial de una sobreviviente es 1000" do
   expect(juliana.energia).to eq 1000
-end
-
-it "Si una sobreviviente ataca su energía se reduce un 5%" do
-  juliana.atacar!(kiki, 5)
-  expect(juliana.energia).to eq 1000 * 0.95
 end
 
 it "Si una sobreviviente ataca masivamente su energía se reduce a la mitad" do
@@ -47,7 +41,7 @@ it "Si una sobreviviente ataca masivamente su energía se reduce a la mitad" do
 end
 
 it "Si una sobreviviente bebe una bebida energética su energía aumenta un 25%" do
-  candela.beber!
+  juliana.beber!
   expect(candela.energia).to eq 1000 * 1.25
 end
 
