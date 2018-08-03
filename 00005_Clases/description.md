@@ -2,7 +2,7 @@ Si tenemos más de un objeto que se comporta **exactamente** de la misma forma, 
 
 ```ruby
 module CelularDeMaría
-  @saldo = 25
+  @saldo = 100
   
   def self.realizar_llamada!
     @saldo -= 5
@@ -14,7 +14,7 @@ module CelularDeMaría
 end
 
 module CelularDeLucrecia
-  @saldo = 25
+  @saldo = 100
   
   def self.realizar_llamada!
     @saldo -= 5
