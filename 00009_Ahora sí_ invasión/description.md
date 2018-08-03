@@ -21,4 +21,4 @@ end
 
 > Veamos si se entiende: Agregale veinte nuevos zombis a la colección `caminantes`. ¡No olvides que los números entienden el mensaje `times`!
 >
-> Luego, agregale un método `ataque_masivo!` a `Sobreviviente`, que reciba una colección de zombis y los ataque a todos con 15 puntos de daño. Podés ver la clase `Sobreviviente` en la solapa Biblioteca.
+> Luego, agregale un método `ataque_masivo!` a `Sobreviviente`, que reciba una colección de zombis y los ataque a todos con 15 puntos de daño.
