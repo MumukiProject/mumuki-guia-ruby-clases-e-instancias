@@ -1,3 +1,7 @@
-#Agrega los zombis a la colección acá. 
+#...solution[8]...#
 
-#Redefiní Sobreviviente con su nuevo método acá.
+#...solution[5]...#
+
+caminantes = []
+
+#Agrega los zombis a la colección acá. 
