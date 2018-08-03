@@ -3,7 +3,7 @@ tags: []
 layout: input_bottom
 editor: code
 type: playground
-extra_visible: false
+extra_visible: true
 manual_evaluation: true
 choices: []
 name: Al menos tenemos salud
