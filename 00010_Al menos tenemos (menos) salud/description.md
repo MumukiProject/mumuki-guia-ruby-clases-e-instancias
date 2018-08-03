@@ -28,4 +28,4 @@ arbolito = Planta.new(110)
 
 ¡Y de esa forma creamos tres plantas de 2 :seedling: , 45 :herb: y 110 :evergreen_tree: centímetros de `@altura`!
 
-> ¡Ahora te toca a vos! Modificá la clase `Zombi` para que se puedan crear zombis con salud variable.
+> ¡Ahora te toca a vos! Modificá la clase `Zombi` para que `initialize` pueda recibir la salud inicial del mismo.
