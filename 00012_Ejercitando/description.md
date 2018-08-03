@@ -2,4 +2,4 @@
 
 Pero también pueden `beber!` bebidas energéticas para recuperar las fuerzas: cada vez que beben, su `energia` aumenta un 25%.
 
-> Modificá la clase `Sobreviviente` para que pueda disminuirse y recuperarse su `energia`. Podés ver la clase `Sobreviviente` en la solapa Biblioteca.
+> Modificá la clase `Sobreviviente` para que pueda disminuirse y recuperarse su `energia`.
