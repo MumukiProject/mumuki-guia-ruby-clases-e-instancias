@@ -4,6 +4,6 @@ layout: input_bottom
 editor: code
 type: playground
 extra_visible: true
-manual_evaluation: true
+manual_evaluation: false
 choices: []
 name: Al menos tenemos salud
