@@ -28,7 +28,7 @@ end
 
 Podemos generalizarlos en una **clase** `Celular`:
 
-````ruby
+```ruby
 class Celular
   def initialize
     @saldo = 25
