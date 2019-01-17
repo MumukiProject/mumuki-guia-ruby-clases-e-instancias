@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: atacar!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: atacar!
   inspection: Calls:recibir_danio!
-- binding: energia
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: energia
   inspection: Uses:@energia
