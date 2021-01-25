@@ -21,9 +21,9 @@ end
 Ahora podemos crear plantas cuyas alturas varíen utilizando una única clase. Internamente, los parámetros que recibe `new` se pasan también a `initialize`:
 
 ```ruby
-brote = Planta.new(2)
-arbusto = Planta.new(45)
-arbolito = Planta.new(110)
+brote = Planta.new 2
+arbusto = Planta.new 45
+arbolito = Planta.new 110
 ```
 
 ¡Y de esa forma creamos tres plantas de 2 :seedling: , 45 :herb: y 110 :evergreen_tree: centímetros de `@altura`!
