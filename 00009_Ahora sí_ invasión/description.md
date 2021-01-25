@@ -3,9 +3,9 @@ Prometimos una invasión zombi pero sólo tenemos dos :-1: . Ahora que contamos 
 ¿Eso significa que tenés que pensar un nombre para referenciar a cada uno? ¡No! Si, por ejemplo, agregamos algunas plantas a un `Vivero`... :hibiscus: :rose: :sunflower:
 
 ```ruby
-Vivero.agregar_planta!(Planta.new)
-Vivero.agregar_planta!(Planta.new)
-Vivero.agregar_planta!(Planta.new)
+Vivero.agregar_planta! Planta.new
+Vivero.agregar_planta! Planta.new
+Vivero.agregar_planta! Planta.new
 ```
 
 ...y el `Vivero` las guarda en una colección `@plantas`, luego las podemos regar a todas...
