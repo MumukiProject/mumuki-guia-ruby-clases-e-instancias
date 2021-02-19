@@ -12,3 +12,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: atacar!
   inspection: Calls:recibir_danio!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Sobreviviente
+  inspection: DeclaresComputationWithArity1:ataque_masivo!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ataque_masivo!
+  inspection: Not:Assigns
