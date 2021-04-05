@@ -16,5 +16,5 @@ expectations:
   binding: Sobreviviente
   inspection: DeclaresComputationWithArity1:ataque_masivo!
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ataque_masivo!
+  binding: Intransitive:ataque_masivo!
   inspection: Not:Assigns
