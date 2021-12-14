@@ -6,8 +6,6 @@ Afortunadamente el viejo y querido `initialize` puede **recibir parámetros** qu
 
 ```ruby
 class Planta
-  @altura
-  
   def initialize(centimetros)
     @altura = centimetros
   end
